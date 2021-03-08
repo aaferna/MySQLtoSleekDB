@@ -27,13 +27,13 @@ As I said earlier, this will download a copy of the latest MySQL to SleekDB and 
 ##  How do I make it work?
 This is easy. It is based on four functions, of which 3 work independently and 1 will do all the work.
 
-### MYSQLITables
+#### MYSQLITables
 You will get the tables from the database that you have indicated in Array format
-### MYSQLIContent
+#### MYSQLIContent
 You will get the data from the indicated table in Array format
-### SleekDBImport
+#### SleekDBImport
 You can enter the data to SleekDB according to the Database and Table indicated
-### MySQLtoSleekDB
+#### MySQLtoSleekDB
 By indicating the Database and the path where SleekDB will save the data, this tool will export the MySQL database completely automatically. 
 
 
