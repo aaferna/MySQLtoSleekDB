@@ -83,6 +83,9 @@ You can bring a complete MySQL database to SleekDB with a single function, Indic
 
 This way you will export all the data from a single enter! 
 
+## What do I do after exporting my database?
+For SleekDB to take the data that I export correctly, it is important that ***respect the directory branching that will be made***, if you want your project to respect the order of the tables in MySQL, SleekDB will organize the content with that order, for this reason it is important that when you want to request data from SleekDB INDICATE THE CORRECT STORE ***(Store = Table)***, and that the Database directory BE WHERE I LOCATE THE EXPORTED FOLDERS 
+
 <br><br>
 <p align="center">
     <img src="https://img.shields.io/github/downloads/gusgeek/MySQLtoSleekDB/total">  
