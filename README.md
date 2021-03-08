@@ -7,6 +7,7 @@ This is the first export tool for SleekDB, an excellent [rakibtg/SleekDB](https:
 This tool was born with my need to want to export different MySQL databases and test the performance of SleekDB with a large volume of information, which turned out to be perfect... both products, of course.
 
 That is why I decided to share the experiment for those who require it.
+Soon it will have a GUI, for now it is only handled as a timely tool that you can integrate your way! 
 
 
 ## How do I get it? 
