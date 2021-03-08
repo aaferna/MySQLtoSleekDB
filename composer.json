@@ -1,0 +1,19 @@
+{
+    "name": "gusgeek/mysqltosleekdb",
+    "description": "Export your MySQL database to SleekDB ",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Agustin Fernandez",
+            "email": "aaferna@outlook.com.ar"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    	"rakibtg/sleekdb": "^2.8"
+    },
+    "autoload": {
+        "files": ["./src/import.php"]
+    }
+}
