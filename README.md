@@ -89,7 +89,39 @@ For SleekDB to take the data that I export correctly, it is important that ***re
 
 For more help on how SleekDB works visit the documentation: https://sleekdb.github.io/ It has many functions that will help you organize your data in a very concrete way!
 
+# CRUD Manager
+The data handlers provided by SleekDB will be the ones that you can use with CRUD Manager. It is not in our interest to replace those functions. Below, we leave some examples of Reading and Writing data. 
 
+```
+<?php 
+
+require_once('./vendor/autoload.php');
+$activity = new CRUD\Activity('products', './data/');
+
+    # Show all Entry's
+
+      $return1 = $activity->Manager()->findAll();
+
+    # Insert data in DB
+
+      $data = array(
+        'category' => 5, 
+        'brand' => 'Saps', 
+        'color' => 'Green' 
+      );
+
+      $return1 = $activity->Manager()->insert($data);
+
+
+
+      $return2 = $activity->FormatData($return1);
+
+    echo "<pre>";
+      print_r($return2);
+    echo "</pre>";
+    
+?>   
+```
 <br><br>
 <p align="center">
     <img src="https://img.shields.io/github/downloads/gusgeek/MySQLtoSleekDB/total">  
