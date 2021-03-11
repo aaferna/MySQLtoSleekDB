@@ -14,6 +14,6 @@
     	"rakibtg/sleekdb": "^2.8"
     },
     "autoload": {
-        "files": ["./src/import.php"]
+        "files": ["./src/import.php", "./src/CRUD.php"]
     }
 }
