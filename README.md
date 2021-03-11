@@ -92,6 +92,9 @@ For more help on how SleekDB works visit the documentation: https://sleekdb.gith
 # CRUD Manager
 The data handlers provided by SleekDB will be the ones that you can use with CRUD Manager. It is not in our interest to replace those functions. Below, we leave some examples of Reading and Writing data. 
 
+Check out this `$activity->Manager()` is the Crud Manager in this example. `findAll()` is the SleekDB handler. 
+`FormatData(array)`, is a CRUD handler that will format the array into a two-part element. Count that will provide the amount of data that is in Data. 
+
 ```
 <?php 
 
