@@ -23,7 +23,7 @@ namespace CRUD{
 
 	    }
 
-	    public static function FormatData($array){
+	    public function FormatData($array){
 
 			return array('count' => count($array), 'data' => $array);
 
@@ -35,6 +35,19 @@ namespace CRUD{
 	 		return $this->db;
 
 	 	}
+
+	 	public function Union($array){
+
+			for ($i=0; $i < count($array) ; $i++) { 
+
+				echo "<pre>";
+				print_r($array[$i]);
+				echo "</pre>";
+
+
+			}
+
+		}
 
 	}
 
